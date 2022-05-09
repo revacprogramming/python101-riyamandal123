@@ -16,7 +16,6 @@ elif h<=40:
 #to print the gades of students
 
 score = input("Enter Score: ")
-
 x=float(score)
     
     
