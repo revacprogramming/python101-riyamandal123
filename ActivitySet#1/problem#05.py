@@ -1,12 +1,22 @@
 # Functions
 
 
-def computepay(h, r):
-    pass  # ...
+score = input("Enter Score: ")
 
-
-hrs = float(input("Enter hours? "))
-rte = float(input("Enter rate per hour? "))
-
-p = computepay(hrs, rte)
-print("Pay", p)
+x=float(score)
+    
+    
+if (x>= 0.9):
+    print('A')
+elif(x>= 0.8):
+    print('B')
+elif(x>= 0.7):
+    print('C')
+elif(x>= 0.6):
+    print('D')
+elif(x< 0.6):
+    print('F')
+else:
+    print("error,please enter within the range of input")
+    
+    
