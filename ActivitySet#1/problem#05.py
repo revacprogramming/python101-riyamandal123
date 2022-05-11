@@ -4,9 +4,8 @@ def computepay(h, r):
         x=(40*r)+(h-40)*(1.5*r)
         return x
     else:
-        pay=h*r
-#print("returning",pay)    
-	return pay
+      pay=h*r
+      return pay
 
 hrs = input("Enter Hours:")
 h=float(hrs)
