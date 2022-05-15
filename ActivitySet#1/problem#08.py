@@ -14,7 +14,7 @@ for line in fh:
         z=float(x)
         print(z)
         count=count+1
-        total=total+1
+        total=total+z
 average=total/count
 print("Average spam confidence:",average)
 
