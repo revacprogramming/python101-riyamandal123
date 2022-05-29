@@ -1,10 +1,12 @@
 
 def add(a, b):
-    pass  # ...
+    pass
+    add(a,b)
 
 
 def output(a, b, sum):
-    pass  # ...
+    pass
+    output(a,b,sum)
 
 
 def main():
