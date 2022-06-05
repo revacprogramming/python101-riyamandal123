@@ -1,7 +1,8 @@
 
 import sqlite3#importing sql libraries
 
-conn = sqlite3.connect('emaildb.sqlite')#to make the connections to database to check acces to the file
+
+conn = sqlite3.connect('emaildb.sqlite')#to make the connections to database to check access to the file
 cur = conn.cursor()
 
 cur.execute('DROP TABLE IF EXISTS Counts')
@@ -9,8 +10,8 @@ cur.execute('DROP TABLE IF EXISTS Counts')
 cur.execute('''
 CREATE TABLE Counts (email TEXT, count INTEGER)''')
 
-fname = 'mbox-short.txt'
-
+fname = input('Enter file name: ')
+if (len(fname) < 1): fname = 'mbox-short.txt'
 fh = open(fname)
 for line in fh:
     if not line.startswith('From: '): continue
