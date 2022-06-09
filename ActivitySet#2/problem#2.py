@@ -1,12 +1,11 @@
 
 def add(a, b):
-    pass
-    add(a,b)
+    c=add(a,b)
+    return c
 
 
 def output(a, b, sum):
-    pass
-    output(a,b,sum)
+    print("sum of a and b is a,b,sum")
 
 
 def main():
@@ -16,5 +15,6 @@ def main():
   output(a, b, sum)
 
 
+x=input('what is the operation')
 if __name__ == '__main__':
     main()
