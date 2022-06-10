@@ -13,3 +13,4 @@ while True:
         break
     print(data.decode(),end='')
 mysock.close()
+.
