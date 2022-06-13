@@ -12,4 +12,4 @@ for line in handle:
     line.append(line)
     sum=num
 print(sum)
-    
+ .   
